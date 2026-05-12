@@ -2,7 +2,7 @@
 
 AuraRad is a state-of-the-art medical imaging platform designed to assist radiologists in detecting pneumonia from chest X-ray images. It combines advanced deep learning (CNNs) with Explainable AI (XAI) to provide both a prediction and a visual justification (Grad-CAM) for its findings.
 
-![AuraRad Preview](https://via.placeholder.com/1200x600.png?text=AuraRad+Medical+AI+Interface)
+![AuraRad Preview](screenshots/header_mockup.png)
 
 ## 🚀 Key Features
 
@@ -12,6 +12,12 @@ AuraRad is a state-of-the-art medical imaging platform designed to assist radiol
 - **Modern UI/UX**: Premium, executive-level dashboard built with Next.js and high-end CSS.
 - **Scalable Backend**: Robust API built with FastAPI, supporting asynchronous image processing.
 - **Dockerized Architecture**: Easy deployment using Docker and Docker Compose.
+
+## 🧠 AI Visualizations (Grad-CAM)
+
+The system doesn't just provide a diagnosis; it explains **why** it made that decision by highlighting the areas of the lung it found suspicious.
+
+![Grad-CAM Visualization](screenshots/heatmap_example.jpg)
 
 ## 🛠️ Tech Stack
 
