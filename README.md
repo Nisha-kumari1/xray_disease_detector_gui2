@@ -19,6 +19,16 @@ The system doesn't just provide a diagnosis; it explains **why** it made that de
 
 ![Grad-CAM Visualization](screenshots/heatmap_example.jpg)
 
+## 🤖 AI Medical Assistant (Privacy-First Chatbot)
+
+AuraRad features an integrated medical chatbot powered by **GPT4All**. Unlike cloud-based solutions, this chatbot runs **locally on your machine**, ensuring that all patient-related queries and interactions remain private and secure.
+
+- **Local Execution**: Uses the Falcon LLM architecture for fast, offline responses.
+- **Medical Context**: Designed to help users understand common radiological terms and general health information.
+- **Privacy-Focused**: No data is sent to external servers or cloud APIs.
+
+![Chatbot Interaction](screenshots/chatbot_interface.png)
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js, TypeScript, Vanilla CSS (Premium Glassmorphism).
